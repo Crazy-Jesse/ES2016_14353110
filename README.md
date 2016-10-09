@@ -42,7 +42,7 @@
 
 ![after configure][id1] 
 
-[id1]: ES2016_14353110/DOL/2.PNG
+[id1]: /ES2016_14353110/DOL/2.PNG
 
 	$	sudo make install
 
