@@ -26,43 +26,43 @@
     Configure your Ubuntu repositories to allow "restricted," "universe," 
     and "multiverse." You can follow the Ubuntu guide for instructions on
     doing this.
-     ![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/1.PNG)
+![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/1.PNG)
 >1.2Setup your sources.list
 
         sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
-     ![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/2.PNG)
+![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/2.PNG)
     
 >1.4Installation
       
         sudo apt-get update
-     ![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/3.PNG)
-     ![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/4.PNG)
-     ![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/5.PNG)
+![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/3.PNG)
+![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/4.PNG)
+![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/5.PNG)
     
         sudo apt-get install ros-jade-desktop-full
-     ![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/6.PNG)
+![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/6.PNG)
     
 >1.5Initialize rosdep
 
         sudo rosdep init
-     ![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/7.PNG)
+![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/7.PNG)
         rosdep update
-     ![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/8.PNG)
+![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/8.PNG)
          
 >1.6Environment setup
 
         echo "source /opt/ros/jade/setup.bash" >> ~/.bashrc
         source ~/.bashrc
-     ![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/9.PNG)
+![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/9.PNG)
      
 >1.7Getting rosinstall
 
         sudo apt-get install python-rosinstall
-     ![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/10.PNG)
+![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/10.PNG)
      .
      .
      .
-     ![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/11.PNG)
+![](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab5ROS/11.PNG)
      
 >1.8Build farm status
         不知道怎么看。。
