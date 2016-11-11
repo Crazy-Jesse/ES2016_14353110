@@ -124,20 +124,27 @@
 
     2.      cd ceres-solver-1.11.0/build
 >在ceres-solver-1.11.0中间一个叫build文件夹才能继续
+   
     3.      cmake ..
 ![new_2](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab6Cartographer/new_2.PNG)
+
 ![new_3](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab6Cartographer/new_3.PNG)
+   
     4.      make 
 >成功后最后显示如图
+
 ![new_4](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab6Cartographer/new_4.PNG)
+
     5.      
 >成功ing后显示如图
 ![new_5](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab6Cartographer/new_5.PNG)
+
 ![new_6](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab6Cartographer/new_6.PNG)
 
 >###2.然后安装 cartographer,路径随意
     1.      git clone https://github.com/hitcm/cartographer.git
 ![new_7](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab6Cartographer/new_7.PNG)
+    
     2 .     cd cartographer/build 
 >需要自己在该文件夹下新建bulid文件夹
     3.       cmake .. -G Ninja 
@@ -155,12 +162,14 @@
 >###3.安装cartographer_ros。
 >下载到catkin_ws下面的src文件夹下面 
     cd catkin_ws/的src
-    git clone https://github.com/hitcm/cartographer_ros.git 
-![new_13]()
+    git clone https://github.com/hitcm/cartographer_ros.git
+    
+![new_13](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab6Cartographer/new_13.PNG)
 
     catkin_ws下面运行catkin_make
+    
 >成功后最后显示如图
-![new_14]()
+![new_14](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab6Cartographer/new_14.PNG)
 
 >这个实验就到了这里停下了。。
 
