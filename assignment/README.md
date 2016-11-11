@@ -40,18 +40,18 @@
 	运行configure(能根据系统的环境设置一下参数，用于编译)
 	$	../configure CXX=g++ --disable-async-updates
 
-![after configure](https://github.com/Crazy-Jesse/ES2016_14353110/raw/master/DOL/2.PNG)
+![after configure](https://github.com/Crazy-Jesse/ES2016_14353110/raw/master/DOL/lab2/2.PNG)
 
 	$	sudo make install
 
-![install1]( https://github.com/Crazy-Jesse/ES2016_14353110/raw/master/DOL/3.PNG)
+![install1]( https://github.com/Crazy-Jesse/ES2016_14353110/raw/master/DOL/lab2/3.PNG)
 
 ![install2](https://github.com/Crazy-Jesse/ES2016_14353110/raw/master/DOL/4.PNG)
 
 
 	记录当前的工作路径(会输出当前所在路径，记下来，待会有用)
 	$	pwd
-![pwd]( https://github.com/Crazy-Jesse/ES2016_14353110/raw/master/DOL/5.PNG)
+![pwd]( https://github.com/Crazy-Jesse/ES2016_14353110/raw/master/DOL/lab2/5.PNG)
 这里表示我当前的工作路径为 home/ubantu/systemc-2.3.1
 
 >5.编译dol
@@ -64,12 +64,12 @@
 <property name="systemc.inc" value="YYY/include"/>
 <property name="systemc.lib" value="YYY/lib-linux/libsystemc.a"/>
 把YYY改成上页pwd的结果即：home/ubantu/systemc-2.3.1
-![build_zip.xml](https://github.com/Crazy-Jesse/ES2016_14353110/raw/master/DOL/9.PNG)
+![build_zip.xml](https://github.com/Crazy-Jesse/ES2016_14353110/raw/master/DOL/lab2/9.PNG)
 
    再编译
 
    	$	ant -f build_zip.xml all
- ![build_zip.xml](https://github.com/Crazy-Jesse/ES2016_14353110/raw/master/DOL/6.PNG)
+ ![build_zip.xml](https://github.com/Crazy-Jesse/ES2016_14353110/raw/master/DOL/lab2/6.PNG)
 
 接着可以试试运行第一个例子
   
@@ -80,7 +80,7 @@
   
 	$	ant -f runexample.xml -Dnumber=1
 结果如下图
-![第一个例子](https://github.com/Crazy-Jesse/ES2016_14353110/raw/master/DOL/7.PNG)
+![第一个例子](https://github.com/Crazy-Jesse/ES2016_14353110/raw/master/DOL/lab2/7.PNG)
 
 
 ##Experimental experience   
