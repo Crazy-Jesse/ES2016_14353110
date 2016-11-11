@@ -147,16 +147,22 @@
     
     2 .     cd cartographer/build 
 >需要自己在该文件夹下新建bulid文件夹
+
     3.       cmake .. -G Ninja 
 ![new_8](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab6Cartographer/new_8.PNG)
+
 ![new_9](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab6Cartographer/new_9.PNG)
     4.       ninja 
 ![new_10](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab6Cartographer/new_10.PNG)
     5.       ninja test 
 >成功后最后显示如图
+
 ![new_11](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab6Cartographer/new_11.PNG)
+    
     6.       sudo ninja install 
+    
 >成功后最后显示如图
+
 ![new_12](https://github.com/Crazy-Jesse/ES2016_14353110/blob/master/DOL/lab6Cartographer/new_12.PNG)
 
 >###3.安装cartographer_ros。
